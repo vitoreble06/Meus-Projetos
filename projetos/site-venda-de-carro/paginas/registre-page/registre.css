@@ -1,0 +1,100 @@
+@charset "UTF-8"; 
+
+body {
+    background: linear-gradient(145deg, rgba(243,18,60,1) 0%, rgba(244,62,96,1) 100%);
+    height: 98vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input {
+    font-size: 1.3rem;
+    margin-left: 10px;
+    border: none;
+    height: 50px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    outline: none;
+}
+
+label {
+    height: 50px;
+    font-size: 1.3rem;
+    display: flex;
+    align-items: center;
+    width: 20px;
+}
+
+.container {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    height: 600px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.493) 0px 8px 16px -8px;
+}
+
+.reg-area {
+    display: flex;
+    flex-direction: column;
+    max-width: 360px;
+    width: 100%;
+}
+
+.titulo {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.button button > a {
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: bolder;
+    color: #fff;
+}
+
+.button > a, button {
+    width: 100%;
+    height: 50px;
+    border-radius: 50px;
+    text-align: center;
+    margin: 15px 0px 0px 0px;
+    border: none;
+    font-size: 1.3rem;
+    background: linear-gradient(145deg, rgba(243,18,60,1) 0%, rgba(244,62,96,1) 100%);
+    font-weight: bolder;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.336) 0px 4px 6px -2px;
+}
+
+.input-area {
+    display: flex;
+    gap: 10px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.sign-in p {
+    font-size: 1.125rem;
+}
+
+.sign-in a {
+    text-decoration: none;
+    font-weight: normal;
+    color: rgba(243,18,60,1);
+    margin-left: 10px;
+    font-size: 1.135rem;
+}
