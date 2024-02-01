@@ -2,7 +2,173 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+html {
+    font-family: "Poppins", sans-serif; 
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
 body {
+    color: #fff;
+    background-color: #000;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}
+
+.titulo {
+    text-align: center;
+    padding: 1.25rem;
+    color: #fff;
+    margin-top: 1.25ren;
+}
+
+.titulo-html {
+    margin-top: 0.625rem;
+    font-size: 2.5rem;
+}
+
+.titulo-css  {
+    font-size: 3.3rem;
+}
+
+.paragrafo {
+    color: #fff;
+    padding: 15px;
+    margin-top: 0.313rem;
+    margin-bottom: 0.625rem;
+    border-top: 0.063rem solid #fff;
+    border-bottom: 0.063rem solid #fff;
+}
+
+.paragrafo > p {
+    text-align: justify;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.625rem;
+}
+
+.flexbox-grid {
     background-color: #fff;
-    color: #000;
+    height: 70px;
+    border-radius: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.flexbox-grid > a {
+    color: black;
+    text-align: center;
+    font-size: 1.3rem;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.footer {
+    background-color: #fff;
+    height: 70px;
+    border-radius: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.footer > a {
+    color: black;
+    text-align: center;
+    font-size: 1.3rem;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.netflix {
+    background-color: #fff;
+    height: 70px;
+    border-radius: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.netflix > a {
+    color: black;
+    text-align: center;
+    font-size: 1.3rem;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.aguas {
+    background-color: #fff;
+    height: 70px;
+    border-radius: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.aguas > a {
+    color: black;
+    text-align: center;
+    font-size: 1.3rem;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.venda-carros {
+    background-color: #fff;
+    height: 70px;
+    border-radius: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.venda-carros > a {
+    color: black;
+    text-align: center;
+    font-size: 1.3rem;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.telas-logins {
+    background-color: #fff;
+    height: 70px;
+    border-radius: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.telas-logins > a {
+    color: black;
+    text-align: center;
+    font-size: 1.3rem;
+    text-decoration: none;
+    margin-right: 10px;
 }
