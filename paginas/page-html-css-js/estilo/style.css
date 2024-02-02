@@ -1,0 +1,134 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html {
+    font-family: "Poppins", sans-serif; 
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    color: #fff;
+    background-color: #000;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}
+
+.titulo {
+    text-align: center;
+    padding: 1.25rem;
+    color: #fff;
+    margin-top: 1.25ren;
+}
+
+.titulo-html{
+    margin-top: 0.625rem;
+}
+
+.titulo-css {
+    font-size: 2.0rem;
+}
+
+.titulo-js  {
+    font-size: 2.3rem;
+}
+
+.paragrafo {
+    color: #fff;
+    padding: 15px;
+    margin-top: 0.313rem;
+    margin-bottom: 0.625rem;
+    border-top: 0.063rem solid #fff;
+    border-bottom: 0.063rem solid #fff;
+}
+.paragrafo > p {
+    text-align: justify;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.625rem;
+}
+
+.calculadora {
+    background-color: #fff;
+    height: 70px;
+    border-radius: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.calculadora > a {
+    color: black;
+    text-align: center;
+    font-size: 1.3rem;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.calculadora-imc {
+    background-color: #fff;
+    height: 70px;
+    border-radius: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.calculadora-imc > a {
+    color: black;
+    text-align: center;
+    font-size: 1.3rem;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.menu-resp {
+    background-color: #fff;
+    height: 70px;
+    border-radius: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.menu-resp > a {
+    color: black;
+    text-align: center;
+    font-size: 1.3rem;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.fa-html5 {
+    color: #FC490B;
+    font-size: 30px;
+}
+
+.fa-css3-alt {
+    color: #006BC0;
+    font-size: 30px;
+}
+
+.fa-js {
+    font-size: 30px;
+    color: #E4A025;
+}
