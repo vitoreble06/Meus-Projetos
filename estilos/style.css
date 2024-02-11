@@ -37,6 +37,7 @@ html {
 
 .titulo-projeto  {
     font-size: 3.3rem;
+    text-decoration: underline;
 }
 
 .paragrafo {
@@ -103,4 +104,20 @@ html {
 .fa-js {
     font-size: 30px;
     color: #E4A025;
+}
+
+.breve {
+    background-color: #fff;
+    width: 100%;
+    height: 70px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.breve a {
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: #000;
 }

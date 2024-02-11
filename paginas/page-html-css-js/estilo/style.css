@@ -132,3 +132,22 @@ body {
     font-size: 30px;
     color: #E4A025;
 }
+
+.sidebar {
+    background-color: #fff;
+    height: 70px;
+    border-radius: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.sidebar > a {
+    color: black;
+    text-align: center;
+    font-size: 1.3rem;
+    text-decoration: none;
+    margin-right: 10px;
+}
