@@ -173,6 +173,25 @@ body {
     margin-right: 10px;
 }
 
+.css_position {
+    background-color: #fff;
+    width: 100%;
+    height: 70px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.css_position > a {
+    text-decoration: none;
+    color: #000;
+    font-size: 1.3rem;
+    text-align: center;
+    margin-right: 10px;
+}
+
 .fa-html5 {
     color: #FC490B;
     font-size: 2.5rem;
