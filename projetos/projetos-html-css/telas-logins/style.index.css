@@ -17,12 +17,6 @@ body {
     margin: 0 auto;
 }
 
-/* hr {
-    width: 100%;
-    margin-left: 15px;
-    margin-right: 15px;
-} */
-
 ::-webkit-scrollbar {
     width: 0px;
     height: 0px;
@@ -66,104 +60,48 @@ body {
     padding: 10px;
 }
 
-.tela01 {
-    background: url(login-1.0/asstes/img/landscape.webp) no-repeat;
-    background-size: cover;
-    background-position: center center;
+.link-projeto {
+    background-color: #fff;
+    text-decoration: none;
+    width: 100%;
     height: 70px;
     border-radius: 20px;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.tela01 > a > span {
-    margin-right: 2px;
-}
-
-.tela01 > a {
-    color: black;
-    text-align: center;
-    font-size: 1.3rem;
+.link-projeto .span {
     text-decoration: none;
+    color: #000;
+    font-size: 1.3rem;
+    text-align: center;
     margin-right: 10px;
 }
 
-.tela02 {
+#tela01 {
+    background: url(login-1.0/asstes/img/landscape.webp) no-repeat;
+    background-size: cover;
+    background-position: center center;  
+}
+
+#tela02 {
     background: url(login-2.0/assets/imgs/landscape.webp) no-repeat;
     background-size: cover;
     background-position: center center;
-    height: 70px;
-    border-radius: 20px;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 20px;
 }
 
-.tela02 > a > span {
-    margin-right: 2px;
-}
-
-.tela02 > a {
-    color: black;
-    text-align: center;
-    font-size: 1.3rem;
-    text-decoration: none;
-    margin-right: 10px;
-}
-
-.tela03 {
+#tela03 {
     background: url(login-3.0/assets/img/my-first-ever-vector-landscape-inspired-by-u-dataxiii-v0-1x0javmx8an91.webp) no-repeat;
     background-size: cover;
     background-position: center center;
-    height: 70px;
-    border-radius: 20px;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 20px;
 }
 
-.tela03 > a > span {
-    margin-right: 2px;
-}
-
-.tela03 > a {
-    color: #fff;
-    text-align: center;
-    font-size: 1.3rem;
-    text-decoration: none;
-    margin-right: 10px;
-}
-
-.tela04 {
+#tela04 {
     background: url(login-4.0/assets/img/sunrise-landscape-minimalism-5k-ex-1920x1080.jpg) no-repeat;
     background-size: cover;
     background-position: center center;
-    height: 70px;
-    border-radius: 20px;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 20px;
-}
-
-.tela04 > a > span {
-    margin-right: 2px;
-}
-
-.tela04 > a {
-    color: #fff;
-    text-align: center;
-    font-size: 1.3rem;
-    text-decoration: none;
-    margin-right: 10px;
 }
 
 .breve {

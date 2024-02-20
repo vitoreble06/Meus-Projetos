@@ -59,130 +59,6 @@ body {
     padding: 0.625rem;
 }
 
-.footer {
-    background-color: #fff;
-    height: 70px;
-    border-radius: 20px;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 20px;
-}
-
-.footer > a {
-    color: black;
-    text-align: center;
-    font-size: 1.3rem;
-    text-decoration: none;
-    margin-right: 10px;
-}
-
-.netflix {
-    background-color: #fff;
-    height: 70px;
-    border-radius: 20px;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 20px;
-}
-
-.netflix > a {
-    color: black;
-    text-align: center;
-    font-size: 1.3rem;
-    text-decoration: none;
-    margin-right: 10px;
-}
-
-.aguas {
-    background-color: #fff;
-    height: 70px;
-    border-radius: 20px;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 20px;
-}
-
-.aguas > a {
-    color: black;
-    text-align: center;
-    font-size: 1.3rem;
-    text-decoration: none;
-    margin-right: 10px;
-}
-
-.venda-carros {
-    background-color: #fff;
-    height: 70px;
-    border-radius: 20px;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 20px;
-}
-
-.venda-carros > a {
-    color: black;
-    text-align: center;
-    font-size: 1.3rem;
-    text-decoration: none;
-    margin-right: 10px;
-}
-
-.telas-logins {
-    background-color: #fff;
-    height: 70px;
-    border-radius: 20px;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 20px;
-}
-
-.telas-logins > a {
-    color: black;
-    text-align: center;
-    font-size: 1.3rem;
-    text-decoration: none;
-    margin-right: 10px;
-}
-
-.css_position {
-    background-color: #fff;
-    width: 100%;
-    height: 70px;
-    border-radius: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 20px;
-}
-
-.css_position > a {
-    text-decoration: none;
-    color: #000;
-    font-size: 1.3rem;
-    text-align: center;
-    margin-right: 10px;
-}
-
-.fa-html5 {
-    color: #FC490B;
-    font-size: 2.5rem;
-}
-
-.fa-css3-alt {
-    color: #006BC0;
-    font-size: 3.3rem;
-}
-
 .link-projeto {
     background-color: #fff;
     width: 100%;
@@ -202,3 +78,14 @@ body {
     text-align: center;
     margin-right: 10px;
 }
+
+.fa-html5 {
+    color: #FC490B;
+    font-size: 2.5rem;
+}
+
+.fa-css3-alt {
+    color: #006BC0;
+    font-size: 3.3rem;
+}
+
