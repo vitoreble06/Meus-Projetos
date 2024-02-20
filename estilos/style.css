@@ -64,33 +64,6 @@ html {
     padding: 0.625rem;
 }
 
-.link-html-css {
-    margin-bottom: 1.25rem;
-    background-color: #fff;
-    height: 70px;
-    width: 100%;
-    border-radius: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    cursor: pointer;
-}
-
-
-.link-html-css > .icons {
-    margin-right: 10px;
-}
-
-.link-html-css > a {
-    margin-left: 10px;
-    color: #000;
-    text-decoration: none;
-    text-align: center;
-    font-size: 1.3rem;
-}
-
-
-
 .fa-html5 {
     color: #FC490B;
     font-size: 30px;
